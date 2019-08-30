@@ -184,16 +184,22 @@ include('header.php');
                                         <input type="text" name='university[]' placeholder='School/University' class="form-control" />
 
                                     </td>
-                                    <td data-name="marks[]">
-                                        <input type="number" name='marks[]' placeholder='82%' class="form-control" min="1" max="100" />
+
+                                    <td>
+                                        <div class="input-group">
+                                            <input type="number" name='marks[]' placeholder='' class="form-control" min="1" max="100" />
+                                            <div class="input-group-append">
+                                                <span class="input-group-text" id="basic-addon">%</span>
+                                            </div>
+                                        </div>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
 
-                        <a onclick="cloneRow()" id="add_qualification" class="btn btn-primary text-white float-right">Add More
+                        <a onclick="cloneRow('addr00', 'qualiBody')" id="add_qualification" class="btn btn-primary text-white float-right">Add More
                             Qualifications</a>
-                        <a onclick="removeRow()" id="add_qualification" class="btn btn-primary text-white float-right">x
+                        <a onclick="removeRow('qualiBody')" id="add_qualification" class="btn btn-primary text-white float-right">x
                         </a>
                     </div>
                 </div>
@@ -223,10 +229,10 @@ include('header.php');
 
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody id="expBody">
                                 <tr id='addr10' data-id="1" class="hidden">
                                     <td data-name="name">
-                                        <input type="number" name='yearsOfExperience1' placeholder='Years' class="form-control" />
+                                        <input type="number" name='yearsOfExperience1' placeholder='No of Years' class="form-control" />
                                     </td>
                                     <td data-name="mail">
                                         <input type="text" name='experienceRole1' placeholder='Role' class="form-control" />
@@ -239,7 +245,8 @@ include('header.php');
                             </tbody>
 
                         </table>
-                        <a id="add_experience" class="btn btn-primary text-white float-right">Add Experience
+                        <a onclick="cloneRow('addr10', 'expBody')" id="add_experience" class="btn btn-primary text-white float-right">Add Experience</a>
+                        <a onclick="removeRow('expBody')" id="remove_experience" class="btn btn-primary text-white float-right">x
                         </a>
                     </div>
                 </div>

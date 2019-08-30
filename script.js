@@ -17,24 +17,20 @@ $('#ReportBugModal').on('show.bs.modal', function (event) {
 
 
 
-
-
-
-
-
 //For Making The Educational Details : Javascript
-function cloneRow() {
-    var row = document.getElementById('addr00'); // find row to copy
-    var table = document.getElementById("qualiBody"); // find table to append to
+function cloneRow(rowID, tableID) {
+    var row = document.getElementById(rowID); // find row to copy
+    var table = document.getElementById(tableID); // find table to append to
     var clone = row.cloneNode(true); // copy children too
     clone.id = ' '; // change id or other attributes/contents
     clone.classList.add("cloned");
     table.appendChild(clone) // add new row to end of table
 
 }
+
 //Remove Row
-function removeRow() {
-    var table = document.getElementById("qualiBody");
+function removeRow(tableID) {
+    var table = document.getElementById(tableID);
     let last = table.lastElementChild;
 
     if (last.classList.contains("cloned")) {
@@ -43,21 +39,9 @@ function removeRow() {
 }
 
 
-
-//Remove Row
-function removeRow() {
-    var table = document.getElementById("qualiBody");
-    let last = table.lastElementChild;
-
-    if (last.classList.contains("cloned")) {
-        last.remove();
-    }
-}
-
-// //clone Row with changed id
 // function cloneRow() {
 //     var row = document.getElementById('addr00'); // find row to copy
-//     var table = document.getElementById("qualiBody"); // find table body to append to
+//     var table = document.getElementById("qualiBody"); // find table to append to
 //     var clone = row.cloneNode(true); // copy children too
 //     clone.id = ' '; // change id or other attributes/contents
 //     clone.classList.add("cloned");
@@ -65,13 +49,12 @@ function removeRow() {
 
 // }
 
-//Remove Row
+// //Remove Row
 // function removeRow() {
 //     var table = document.getElementById("qualiBody");
+//     let last = table.lastElementChild;
 
-//     for (let el of table.children) {
-//         if (el.classList.contains("cloned")) {
-//             el.remove();
-//         }
+//     if (last.classList.contains("cloned")) {
+//         last.remove();
 //     }
 // }
