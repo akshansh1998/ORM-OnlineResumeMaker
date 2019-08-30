@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="27.921522in"
+   height="6.875in"
+   viewBox="0 0 709.20666 174.625"
+   version="1.1"
+   id="svg24"
+   sodipodi:docname="ORM Project.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.12374369"
+     inkscape:cx="737.30301"
+     inkscape:cy="-168.35449"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     borderlayer="true"
+     showborder="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false"
+     units="in"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="557.84118,2.1762371"
+       orientation="0,1"
+       id="guide848"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="267.55547,174.53338"
+       orientation="0,1"
+       id="guide850"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata21">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(126.94832,-17.206002)">
+    <g
+       id="g846"
+       transform="matrix(1.0947867,0,0,1.0947867,-19.044092,3.3347324)"
+       style="fill:#1a1a1a;stroke-width:0.91341996">
+      <path
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-opacity:1"
+         d="M -479.80469,76.369141 V 736.36914 h 656.8711 V 264.87109 L -18.330078,76.369141 Z m 34.28516,34.449219 h 413.30078 l 175,168.82422 v 422.27734 h -588.30078 z"
+         transform="matrix(0.24167569,0,0,0.24167569,17.395253,-5.7862709)"
+         id="rect812"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect824"
+         d="M 59.497554,60.298259 12.190293,14.825484 11.628161,60.378407 Z"
+         style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.24167567;stroke-opacity:1"
+         sodipodi:nodetypes="cccc" />
+      <circle
+         r="22.45064"
+         cy="78.571991"
+         cx="-19.85512"
+         id="path830"
+         style="opacity:0.70499998;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.24167567;stroke-opacity:1" />
+      <path
+         id="circle832"
+         d="M -19.869588,104.69852 A 69.490081,60.959772 0 0 0 -89.25915,163.89036 H 49.548912 a 69.490081,60.959772 0 0 0 -69.4185,-59.19184 z"
+         style="opacity:0.83999999;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.24167572;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:170.08348083px;line-height:1.25;font-family:Nexa;-inkscape-font-specification:Nexa;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458326"
+       x="83.654694"
+       y="144.77863"
+       id="text836"><tspan
+         sodipodi:role="line"
+         id="tspan834"
+         x="83.654694"
+         y="144.77863"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:lato;-inkscape-font-specification:'lato Heavy';fill:#333333;stroke-width:0.26458326">ORM</tspan></text>
+    <text
+       id="text840"
+       y="188.40359"
+       x="85.374725"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:145.63175964px;line-height:1.25;font-family:Nexa;-inkscape-font-specification:Nexa;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.26458326"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:43.49683762px;font-family:lato;-inkscape-font-specification:'lato Heavy';fill:#666666;stroke-width:0.26458326"
+         y="188.40359"
+         x="85.374725"
+         id="tspan838"
+         sodipodi:role="line">Online Resume Maker</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36.54651642px;line-height:1.25;font-family:lato;-inkscape-font-specification:lato;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458326"
+       x="493.88373"
+       y="53.314457"
+       id="text875"><tspan
+         sodipodi:role="line"
+         id="tspan873"
+         x="493.88373"
+         y="53.314457"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:lato;-inkscape-font-specification:lato;fill:#333333;stroke-width:0.26458326">BETA</tspan></text>
+  </g>
+</svg>
