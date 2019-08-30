@@ -34,14 +34,24 @@ function cloneRow() {
 }
 //Remove Row
 function removeRow() {
-    var table = document.getElementById("qualiBody"); // find table to append to
+    var table = document.getElementById("qualiBody");
+    let last = table.lastElementChild;
 
-    for (let el of table.children) {
-        if (el.classList.contains("cloned")) {
-            el.remove();
-        }
+    if (last.classList.contains("cloned")) {
+        last.remove();
     }
+}
 
+
+
+//Remove Row
+function removeRow() {
+    var table = document.getElementById("qualiBody");
+    let last = table.lastElementChild;
+
+    if (last.classList.contains("cloned")) {
+        last.remove();
+    }
 }
 
 // //clone Row with changed id
