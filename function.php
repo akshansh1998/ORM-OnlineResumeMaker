@@ -66,5 +66,5 @@ function breadcrumbs($separator = '<span style="display: inline-block;padding:0 
 
 
 //Convert Date Format
-$originalDate = $_POST["dateOfBirth"];
-$newDate = date("d-m-Y", strtotime($originalDate));
+// $originalDate = $_POST["dateOfBirth"];
+// $newDate = date("d-m-Y", strtotime($originalDate));
