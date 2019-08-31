@@ -2,9 +2,22 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #f2f2f2;
+}
+
 .container {
     max-width: 960px;
 }
+
+/* HOME PAGE CSS START */
+
+.custom-card{
+    width: 85%;
+    margin: auto;
+}
+
+/* HOME PAGE CSS ENDS */
 
 /*
  * Custom translucent site header

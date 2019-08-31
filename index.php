@@ -58,9 +58,9 @@ include('function.php');
             <div class="row">
 
                 <div class="col-lg-6 pb-5">
-                    <div class="card text-center">
+                    <div class="card custom-card text-center">
                         <div class="card-header">
-                            Classic
+                            <h5>Classic</h5>
                         </div>
                         <div class="card-img-top img-fluid img-responsive choose-template-card-image">
                             <img src="img/Asset3.svg" alt="">
@@ -77,9 +77,9 @@ include('function.php');
                     </div>
                 </div>
                 <div class="col-lg-6 pb-5">
-                    <div class="card text-center">
+                    <div class="card custom-card text-center">
                         <div class="card-header">
-                            Modern
+                            <h5>Modern</h5>
                         </div>
                         <div class="card-img-top img-fluid img-responsive choose-template-card-image">
                             <img src="img/Asset1.svg" alt="">
