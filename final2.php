@@ -1,6 +1,9 @@
 <?php
 //Page Title Goes Here
 define('PAGENAME', 'About');
+//Convert Date Format
+$originalDate = $_POST["dateOfBirth"];
+$newDate = date("d-m-Y", strtotime($originalDate));
 
 include('header.php');
 ?>
