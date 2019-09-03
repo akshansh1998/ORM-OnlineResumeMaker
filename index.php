@@ -106,54 +106,54 @@ include('function.php');
 
         <div class="container-custom">
             <div class=" container">
-            <div class="row">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">Choose Your Favourite Template, <span class="text-muted">No Need to Sign Up</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5">
-                    <img src="img/Asset1.svg" alt="" height="100%" width="100%">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <hr>
-
-    <div class="container-custom">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading">Enter Your Details, <span class="text-muted">Don't Worry it's Safe!</span>
-                    </h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
-                <div class="col-md-5 order-md-1">
-                    <img src="img/Asset3.svg" alt="" height="100%" width="100%">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">Choose Your Favourite Template, <span class="text-muted">No Need to Sign Up</span></h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="img/Asset1.svg" alt="" height="100%" width="100%">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <hr>
+        <hr>
 
-    <div class="container-custom">
-        <div class=" container">
-        <div class="row">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">And lastly, Download Your <span class="text-muted">Resume.</span> It's Free</h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            </div>
-            <div class="col-md-5">
-                <img src="img/Asset1.svg" alt="" height="100%" width="100%">
+        <div class="container-custom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading">Enter Your Details, <span class="text-muted">Don't Worry it's Safe!</span>
+                        </h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img src="img/Asset3.svg" alt="" height="100%" width="100%">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-    <span class="featurette-divider"></span>
+
+        <hr>
+
+        <div class="container-custom">
+            <div class=" container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">And lastly, Download Your <span class="text-muted">Resume.</span> It's Free</h2>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="img/Asset1.svg" alt="" height="100%" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="featurette-divider"></span>
 
 
-    <!-- /END THE FEATURETTES -->
+        <!-- /END THE FEATURETTES -->
 
     </div><!-- /.container -->
 
