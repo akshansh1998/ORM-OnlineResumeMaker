@@ -24,7 +24,7 @@ include('header.php');
             <h3 class="mb-0">Enter Your Information</h3>
         </div>
         <div class="card-body">
-            <form method="post" class="form" role="form" autocomplete="off" action="final2.php">
+            <form method="post" class="form needs-validated" role="form" autocomplete="off" action="final2.php">
                 <?php
                 //For Taking the Value of $templateSelected to Next Page
                 echo "<input type='text' name='template' class='d-none' value='$templateSelected'>";
