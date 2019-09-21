@@ -53,7 +53,8 @@ include('function.php');
     <div class="bg-dark" id="choose-template">
         <div class="container">
             <div class="bg-transparent text-center text-white pb-5">
-                <h1 class="display-4">Choose Template</h1>
+                <h1 class="display-4 font-weight-normal" style="color: #efefef;">Choose Template</h1>
+                <hr width="100" size="5" style="border-top: 3px solid #efefef;">
             </div>
             <div class="row">
 
