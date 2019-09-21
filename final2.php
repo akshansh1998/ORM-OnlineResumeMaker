@@ -189,12 +189,21 @@ include('header.php');
                         <div class="font-weight-bold">(<?php echo $_POST["fullName"]; ?>)</div>
                     </div>
                 </div>
-
+                <!-- For Adding Hiding Print Button of  -->
+                <script>
+                    function callPrint() {
+                        document.getElementById('buttonRow').style.display = 'none';
+                        window.print();
+                        alert('Click Ok, When Printing is Done.');
+                        document.getElementById('buttonRow').style.display = 'block';
+                    }
+                </script>
             </div>
+
         </div>
         <div class="card-footer text-center">
 
-            <button class="btn btn-primary mx-2" id="" onclick="openWin();">Download or Print PDF</a>
+            <button class="btn btn-primary mx-2" id="buttonRow" onclick="openWin()">Download or Print PDF</a>
 
         </div>
     </div>
@@ -210,18 +219,15 @@ include('header.php');
 <script type="text/javascript">
     function openWin() {
 
-
         var divText = document.getElementById("ormContainer").outerHTML;
         var myWindow = window.open('', '', 'width=900,height=800');
         var doc = myWindow.document;
         doc.open();
-        doc.write('<html><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"><style>body{margin: 10mm 10mm 10mm 10mm}</style><!-- Bootstrap CSS --><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" /><link rel="stylesheet" href="style.css"><head><title>DIV Contents</title>');
+        doc.write('<html><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"><style>body{margin: 10mm 10mm 10mm 10mm}</style><!-- Bootstrap CSS --><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" /><link rel="stylesheet" href="style.css"/><head><title>Resume</title>');
         doc.write('</head><body>');
         doc.write(divText);
-        doc.write('</body></html>');
-        doc.close();
-
-
+        doc.write('<div id="buttonRow" align="center"><input type="button" name="Print" value=" Print" Class="btn btn-primary" onclick="callPrint()"/> <input type="button" name="close" value=" Close " Class="btn btn-primary" onclick="parent.close();"/></div>');
+        doc.write("</body></html>");
     }
 </script>
 
