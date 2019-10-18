@@ -226,8 +226,8 @@ include('header.php');
         doc.write('<html><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"><style>body{margin: 10mm 10mm 10mm 10mm}</style><!-- Bootstrap CSS --><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" /><link rel="stylesheet" href="style.css"/><head><title>Resume</title>');
         doc.write('</head><body>');
         doc.write(divText);
-        doc.write('<div id="buttonRow" align="center"><input type="button" name="Print" value=" Print" Class="btn btn-primary" onclick="callPrint()"/> <input type="button" name="close" value=" Close " Class="btn btn-primary" onclick="parent.close();"/></div>');
-        doc.write("</body></html>");
+        doc.write('<br><div id="buttonRow" align="center"><input type="button" name="Print" value=" Print" Class="btn btn-primary" onclick="callPrint()"/> <input type="button" name="close" value=" Close " Class="btn btn-primary" onclick="parent.close();"/></div>');
+        doc.write("<br><br></body></html>");
     }
 </script>
 
