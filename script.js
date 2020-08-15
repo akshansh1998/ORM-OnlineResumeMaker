@@ -38,6 +38,8 @@ function removeRow(tableID) {
     }
 };
 
+if (document.getElementById('')) {
+
 
 // function cloneRow() {
 //     var row = document.getElementById('addr00'); // find row to copy
@@ -67,3 +69,5 @@ function callPrint() {
     alert("Click Ok , When Printing is Done.");
     document.getElementById('buttonRow').style.display = '';
 };
+
+}

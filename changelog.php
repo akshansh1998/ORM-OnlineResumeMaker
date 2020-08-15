@@ -3,9 +3,11 @@
 define('PAGENAME', 'Change Log');
 
 include('header.php');
-include('function.php');
 ?>
 
+<div class="jumbotron jumbotron-fluid text-center">
+    <h1 class="display-4"><?php echo PAGENAME; ?></h1> 
+</div>
 
 
 <?php
