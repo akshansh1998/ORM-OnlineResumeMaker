@@ -7,7 +7,20 @@ body {
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1180px !important;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+.container-custom{
+    padding: 30px 0px 40px 0px;
+}
+
+.container-custom-dark {
+    background-color: #343a40;
+    color: #f2f2f2;
 }
 
 /* HOME PAGE CSS START */
@@ -128,8 +141,8 @@ body {
     overflow: auto;
     background: #fbfbfb;
     border: 1px solid #f3f3f3;
-    border-bottom-width: 5px !important;
-    /* border-top-width: 5px !important; */
+    border-bottom-width: 5px ;
+    /* border-top-width: 5px ; */
     padding: 50px 40px;
     box-sizing: border-box;
 }

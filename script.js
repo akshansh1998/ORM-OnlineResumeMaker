@@ -2,7 +2,7 @@
 
 function comingSoon() {
     alert("Thank You for your Interest,But This Feature is Still Being Developed");
-}
+};
 
 //For Report a Bug
 $('#ReportBugModal').on('show.bs.modal', function (event) {
@@ -26,7 +26,7 @@ function cloneRow(rowID, tableID) {
     clone.classList.add("cloned");
     table.appendChild(clone) // add new row to end of table
 
-}
+};
 
 //Remove Row
 function removeRow(tableID) {
@@ -36,8 +36,38 @@ function removeRow(tableID) {
     if (last.classList.contains("cloned")) {
         last.remove();
     }
-}
+};
 
 if (document.getElementById('')) {
+
+
+// function cloneRow() {
+//     var row = document.getElementById('addr00'); // find row to copy
+//     var table = document.getElementById("qualiBody"); // find table to append to
+//     var clone = row.cloneNode(true); // copy children too
+//     clone.id = ' '; // change id or other attributes/contents
+//     clone.classList.add("cloned");
+//     table.appendChild(clone) // add new row to end of table
+
+// }
+
+// //Remove Row
+// function removeRow() {
+//     var table = document.getElementById("qualiBody");
+//     let last = table.lastElementChild;
+
+//     if (last.classList.contains("cloned")) {
+//         last.remove();
+//     }
+// }
+
+
+//To Open Print Window After Hiding the Buttons
+function callPrint() {
+    document.getElementById('buttonRow').style.display = 'none';
+    window.print();
+    alert("Click Ok , When Printing is Done.");
+    document.getElementById('buttonRow').style.display = '';
+};
 
 }
