@@ -79,8 +79,8 @@ include('header.php');
                 </div>
                 <div class="form-group row">
                     <label for="sel1" class="col-lg-3">Merital Status</label>
-                    <div class=" col-lg-9"">
-                        <select class=" form-control id="sel1" name="meritalStatus">
+                    <div class=" col-lg-9">
+                        <select class=" form-control" id="sel1" name="meritalStatus">
                         <option>Unmarried</option>
                         <option>Married</option>
                         <option>Divorced</option>
@@ -90,8 +90,8 @@ include('header.php');
                 </div>
                 <div class="form-group row">
                     <label for="sel1" class="col-lg-3">Nationality</label>
-                    <div class=" col-lg-9"">
-                        <select class=" form-control id="sel1" name="nationality">
+                    <div class=" col-lg-9">
+                        <select class=" form-control" id="sel1" name="nationality">
                         <option>Indian</option>
                         <option>Other</option>
                         </select>
@@ -231,14 +231,14 @@ include('header.php');
                             </thead>
                             <tbody id="expBody">
                                 <tr id='addr10' data-id="1" class="hidden">
-                                    <td data-name="name">
-                                        <input type="number" name='yearsOfExperience1' placeholder='No of Years' class="form-control" />
+                                    <td data-name="yearsOfExperience[]">
+                                        <input type="number" name='yearsOfExperience[]' placeholder='No of Years' class="form-control" />
                                     </td>
-                                    <td data-name="mail">
-                                        <input type="text" name='experienceRole1' placeholder='Role' class="form-control" />
+                                    <td data-name="experienceRole[]">
+                                        <input type="text" name='experienceRole[]' placeholder='Role' class="form-control" />
                                     </td>
-                                    <td data-name="desc">
-                                        <input type="text" name='experienceCompany1' placeholder='Name of Firm' class="form-control" />
+                                    <td data-name="experienceCompany[]">
+                                        <input type="text" name='experienceCompany[]' placeholder='Name of Firm' class="form-control" />
                                     </td>
                                 </tr>
 

@@ -135,8 +135,8 @@
                     </div>
                     <div class="form-group row">
                         <label for="sel1" class="col-lg-3">Merital Status</label>
-                        <div class=" col-lg-9"">
-                        <select class=" form-control id="sel1" name="sellist1">
+                        <div class=" col-lg-9">
+                        <select class=" form-control" id="sel1" name="sellist1">
                             <option>Unmarried</option>
                             <option>Married</option>
                             <option>Divorced</option>
@@ -146,8 +146,8 @@
                     </div>
                     <div class="form-group row">
                         <label for="sel1" class="col-lg-3">Nationality</label>
-                        <div class=" col-lg-9"">
-                        <select class=" form-control id="sel1" name="sellist1">
+                        <div class=" col-lg-9">
+                        <select class=" form-control" id="sel1" name="sellist1">
                             <option>Indian</option>
                             <option>Other</option>
                             </select>

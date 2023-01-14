@@ -69,7 +69,7 @@ include('header.php');
                         //Get Educational Qualifications as According to Entered
                         for ($i = 0; $i < count($qualifications['deploma']); $i++) {
                             $x = $i;
-                            echo "<li>" . $qualifications[deploma][$x] . " From " . $qualifications[institute][$x]  . " Under " . $qualifications[board][$x] . " with " . $qualifications[marks][$x]  . "%" . "</li>";
+                            echo "<li>" . $qualifications['deploma'][$x] . " From " . $qualifications['institute'][$x]  . " Under " . $qualifications['board'][$x] . " with " . $qualifications['marks'][$x]  . "%" . "</li>";
                         };
 
 
@@ -84,24 +84,23 @@ include('header.php');
                 <div>
                     <h6>Experiences</h6>
                     <ul>
-                        <li>
-                            <span>
-                                <?php echo $_POST["yearsOfExperience"]; ?>
-                            </span>
-                            Years Experience as
-                            <span><?php echo $_POST["experienceRole"]; ?></span>
-                            in
-                            <span><?php echo $_POST["experienceCompany"]; ?></span>
-                        </li>
-                        <li>
-                            <span>
-                                <?php echo $_POST["yearsOfExperience"]; ?>
-                            </span>
-                            Years Experience as
-                            <span><?php echo $_POST["experienceRole"]; ?></span>
-                            in
-                            <span><?php echo $_POST["experienceCompany"]; ?></span>
-                        </li>
+                    <?php
+                        $experience = array(
+                                'years' => $_POST["yearsOfExperience"],
+                                'role' => $_POST["experienceRole"],
+                                'company' => $_POST["experienceCompany"],
+                            );
+
+
+                            //Get Educational Qualifications as According to Entered
+                            for ($i = 0; $i < count($experience['years']); $i++) {
+                                $x = $i;
+                                echo "<li>" . $experience['years'][$x] . "Years Experience as " . $experience['role'][$x]  . " in " . $experience['company'][$x] . "</li>";
+                            };
+
+                    ?>
+
+
 
 
 
